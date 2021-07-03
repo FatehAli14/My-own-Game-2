@@ -48,7 +48,7 @@ function draw() {
       heroPellets();    
     } 
 
-   if (frameCount % 1000 === 0) {
+   if (frameCount % 80 === 0) {
     laser = createSprite(random(100, 1000), 0, 100, 100);
     laser.scale=0.08;
     laser.velocityY = 6;
